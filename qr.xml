@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>Questions-reponses SEO</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Novembre 2023</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	<description>Ce plugin affiche des couples de questions réponses avec style SEO</description>
+	<files>
+		<filename plugin="qr">qr.php</filename>
+		<filename>qr.xml</filename>			
+		<filename>style.css</filename>	
+	</files>	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				<field name="note-utilisation" type="note" class="alert" label="Tag à utiliser" description="Pour afficher la liste des documents provisoires, utiliser {question}Ma question{/question}{reponse}Ma reponse{/reponse}" />
+				
+			</fieldset>	
+		</fields>
+	</config>	
+</extension>
